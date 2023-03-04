@@ -40,7 +40,7 @@ box-sizing:border-box;
 transform: translate(0px,-10px);
 }
 #img{
-    width: 1000px;
+    width: 10px;
     height: 50px;
     text-align: center;
     margin: 50px auto;
@@ -48,7 +48,7 @@ transform: translate(0px,-10px);
 }
 p{
     text-align: center;
-    color:rgb(223, 58, 113);
+    color:yellowgreen;
     padding-top:0 8px;
 }
 h6{font-size:  25px; 
@@ -61,7 +61,7 @@ list-style: none;
 display: flex;
 justify-content: center;
 align-items: center;
-padding-top: 100px;
+padding-top: 0px;
 }
 li{padding-top:5px;
 }
@@ -82,28 +82,29 @@ button{
     font-size: 24px;
     color: #fff;
     width: 100%;
-    padding:15px ;
+    padding:20px ;
     border: 0;
     outline: none;
     cursor: pointer;
     margin-top: 5px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-}
-.buy-1{
    background: #2183a2;
 }
-.buy-2{
-    background: #3b3e6e;
+    
+
+#buy1{
+    background: #2183a2;
 }
-.buy-3{
-    background: #0b0b0b;
-}
-.buy-4{
+#buy2{
     background: #ff9f43;
 }
-@media(max-width:750px){
-    .content{
-        width: 100%;  
-    }
+#buy3{
+    background: black;
+}
+#buy4{
+    background:gray;
+}
+#buy5{
+    background: goldenrod;
 }
